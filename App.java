@@ -23,9 +23,9 @@ public class App {
 		}
 		System.out.println("Sıcaklık: " + model.GetTemperature());
 		System.out.println("Gün uzunluğu: " + model.GetDayLightDuration());
-		System.out.println("Elektrik Tüketimi: " + model.GetElectricityConsumption() + " kMW/h");
-		//model.GetCharts();
-		//model.GetOutputAreaChart();
+		System.out.println("Elektrik Tüketimi: " + model.GetElectricityConsumption() + " kW/h");
+		model.GetCharts();
+		model.GetOutputAreaChart();
 		model.PrintExecutedRules();
 		
 	}
